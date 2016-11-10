@@ -19,9 +19,9 @@ function outerFunction() {
 
   function innerFunction() {
     var world = 'World';
-    return /* answer here */;
+    return /* answer here */hello + " " + world;
   }
-  innerFunction();
+  return innerFunction();
 }
 
 
